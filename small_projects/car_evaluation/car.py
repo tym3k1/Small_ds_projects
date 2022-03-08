@@ -142,6 +142,7 @@ for name, model in pipelines:
     names.append(name)
     msg = "%s: %f (%f)" % (name, cv_results.mean(), cv_results.std())
     print(msg)
+#results are almost equal, are a bit worse
 fig = plt.figure()
 fig.suptitle('Scaled Algorithm Comparison')
 ax = fig.add_subplot(111)
